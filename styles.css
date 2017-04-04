@@ -1,0 +1,111 @@
+header {
+  background-image: url("img/wall2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+header section:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+header section {
+  width: 200px;
+  opacity: 0.5;
+  height: 200px;
+  z-index: 100;
+  margin: 20px;
+  border-radius: 10px;
+  background-position: center !important;
+  background-size: cover !important;
+  box-shadow: 3px 3px 3px black;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.8;
+}
+
+.information {
+  height: 700px;
+  position: relative;
+  color: white;
+  margin-left: 20px;
+}
+.border-overlay {
+  border: dashed 2px white;
+  position: absolute;
+  right: -2px;
+  left: -2px;
+  bottom: -2px;
+  top: -2px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cards article {
+  position: relative;
+  border: 2px solid black;
+  width: 300px;
+  min-height: 300px;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+.cards .title {
+  font-size: 36px;
+  top: 0;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin-top: -20px;
+}
+.description {
+  margin-top: 90px;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+#name {
+  font-size: 30px;
+  color: white;
+  margin: 20px;
+  display: block;
+}
+
+.black-background {
+  z-index: -1;
+  background: black;
+  width: 120%;
+  height: 300px;
+  position: absolute;
+  left: -5%;
+  top: -104px;
+  transform: rotate(4deg);
+}
+.git {
+  background: url("img/git.png");
+}
+.linked {
+  background: url("img/linked.png");
+}
+.twitter {
+  background: url("img/twitter.jpg");
+}
