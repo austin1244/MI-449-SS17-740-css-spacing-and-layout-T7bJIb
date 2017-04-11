@@ -1,7 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-image: url("img/wall2.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
   background-attachment: fixed;
   width: 100%;
   height: 500px;
@@ -16,6 +21,7 @@ header section:hover {
   opacity: 1;
   cursor: pointer;
 }
+
 header section {
   width: 200px;
   opacity: 0.5;
@@ -44,6 +50,7 @@ header section {
   color: white;
   margin-left: 20px;
 }
+
 .border-overlay {
   border: dashed 2px white;
   position: absolute;
@@ -52,11 +59,13 @@ header section {
   bottom: -2px;
   top: -2px;
 }
+
 .cards {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
+
 .cards article {
   position: relative;
   border: 2px solid black;
@@ -66,6 +75,7 @@ header section {
   margin: 20px;
   padding: 10px;
 }
+
 .cards .title {
   font-size: 36px;
   top: 0;
@@ -74,6 +84,7 @@ header section {
   padding: 0;
   margin-top: -20px;
 }
+
 .description {
   margin-top: 90px;
   color: black;
@@ -100,12 +111,15 @@ body {
   top: -104px;
   transform: rotate(4deg);
 }
+
 .git {
   background: url("img/git.png");
 }
+
 .linked {
   background: url("img/linked.png");
 }
+
 .twitter {
   background: url("img/twitter.jpg");
 }
