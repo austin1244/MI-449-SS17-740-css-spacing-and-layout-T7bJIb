@@ -24,6 +24,7 @@ header section:hover {
 
 header section {
   width: 200px;
+  min-width: 200px;
   opacity: 0.5;
   height: 200px;
   z-index: 100;
