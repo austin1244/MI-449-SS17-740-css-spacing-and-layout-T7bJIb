@@ -95,20 +95,21 @@ body {
 }
 
 #name {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   margin: 20px;
   display: block;
+  text-align: center;
 }
 
 .black-background {
   z-index: -1;
   background: black;
   width: 120%;
-  height: 300px;
+  height: 320px;
   position: absolute;
   left: -5%;
-  top: -104px;
+  top: -106px;
   transform: rotate(4deg);
 }
 
